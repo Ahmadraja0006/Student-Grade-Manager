@@ -1,48 +1,55 @@
-# Student Expense Tracker
+# Student Grade Manager
 
-A console-based expense tracking application built in Python that helps students manage daily expenses, analyze spending habits, and generate monthly summaries. Expense data is stored persistently using JSON file storage.
+A console-based Java application designed to manage student records, calculate grades, generate report cards, and analyze class performance. The application demonstrates Object-Oriented Programming principles and stores data persistently using file handling.
 
 ## Tech Stack
 
-- Python
-- JSON
-- File Handling
-- Datetime Module
+- Java
+- Object-Oriented Programming (OOP)
+- Collections Framework
+- File I/O
+- Exception Handling
 
 ## Features
 
-- Add new expenses with amount, category, description, and date
-- View all recorded expenses
-- Generate monthly expense summaries
-- Analyze spending by category
-- Search expenses by category or keyword
-- Delete existing expenses
-- Persistent data storage using JSON
-- Input validation and exception handling
+- Add and manage student records
+- Add and update subject marks
+- Calculate total marks and average percentage
+- Automatic grade assignment
+- Generate detailed student report cards
+- Track pass/fail status
+- View class statistics and topper information
+- Delete student records
+- Persistent data storage using file handling
 
 ## Concepts Demonstrated
 
-- Functions and Modular Programming
-- Data Structures (Lists and Dictionaries)
+- Object-Oriented Programming
+  - Encapsulation
+  - Abstraction
+- Collections Framework
+  - ArrayList
+  - HashMap / LinkedHashMap
 - File Handling
-- JSON Serialization
 - Exception Handling
-- Input Validation
-- CRUD Operations
+- Data Persistence
+- Menu-Driven Application Design
 
 ## How to Run
 
 ```bash
-python expense_tracker.py
+javac StudentGradeManager.java
+java StudentGradeManager
 ```
 
 ## Learning Outcomes
 
-- Building command-line applications in Python
-- Working with JSON-based data persistence
-- Managing and organizing structured data
-- Implementing search and reporting features
-- Handling user input and runtime errors
+- Designing applications using OOP principles
+- Working with Java Collections Framework
+- Reading and writing data using File I/O
+- Implementing grading and reporting systems
+- Handling exceptions and validating user input
+- Building command-line applications in Java
 
 ## Author
 
